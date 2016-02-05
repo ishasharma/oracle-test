@@ -1,0 +1,3 @@
+CREATE TABLE ast_Taluka_M ( talukaId VARCHAR2(64)  NOT NULL, countryId VARCHAR2(64)  NOT NULL, stateId VARCHAR2(64)  NOT NULL, regionId VARCHAR2(64)  NOT NULL, districtId VARCHAR2(64)  NOT NULL, talukaName VARCHAR2(256)  NOT NULL, talukaCode VARCHAR2(32)  NOT NULL, talukaDescription VARCHAR2(128)  DEFAULT NULL, talukaFlag VARCHAR2(128)  DEFAULT NULL, talukaLatitude NUMBER(11)  DEFAULT NULL, talukaLongitude NUMBER(11)  DEFAULT NULL, createdBy VARCHAR2(64)  DEFAULT '-1', createdDate TIMESTAMP  DEFAULT '11-nov-01', updatedBy VARCHAR2(64)  DEFAULT '-1', updatedDate TIMESTAMP  DEFAULT '11-nov-01', versionId NUMBER(11)  DEFAULT '-1', activeStatus NUMBER(1)  DEFAULT '1', txnAccessCode NUMBER  DEFAULT NULL, PRIMARY KEY (talukaId));
+
+exit;

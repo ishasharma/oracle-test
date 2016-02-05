@@ -1,0 +1,2 @@
+load data infile '/tmp/applifire/db/5VJPOC7D2FDIKLMY2RVZ3Q/6BE6DB6D-9D38-4A34-8DE5-68F3A79FF98C/art/data/art_service.csv' "str '#appfirenewline#'" into table art_service FIELDS TERMINATED BY '#appfire#' (service_id,service_name,service_class,service_json CHAR(20000),source_details CHAR(20000),status,project_id,app_creator_id,project_version_id,created_by,created_date TIMESTAMP 'yyyy-mm-dd hh24:mi:ss".0"',updated_by,updated_date TIMESTAMP 'yyyy-mm-dd hh24:mi:ss".0"',version_id,active_status,dao_id)
+

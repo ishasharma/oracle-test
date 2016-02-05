@@ -1,0 +1,3 @@
+CREATE TABLE ast_AddressExtended_TP ( addExtId VARCHAR2(64)  NOT NULL, addressId VARCHAR2(64)  NOT NULL, villageId VARCHAR2(64)  NOT NULL, talukaId VARCHAR2(64)  NOT NULL, districtId VARCHAR2(64)  NOT NULL, regionId VARCHAR2(64)  NOT NULL, villageName VARCHAR2(128)  NOT NULL, talukaName VARCHAR2(128)  NOT NULL, createdBy VARCHAR2(64)  DEFAULT '-1', createdDate TIMESTAMP  DEFAULT '11-nov-01', updatedBy VARCHAR2(64)  DEFAULT '-1', updatedDate TIMESTAMP  DEFAULT '11-nov-01', versionId NUMBER(11)  DEFAULT '-1', activeStatus NUMBER(1)  DEFAULT '1', txnAccessCode NUMBER  DEFAULT NULL, PRIMARY KEY (addExtId));
+
+exit;

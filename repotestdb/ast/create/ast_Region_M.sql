@@ -1,0 +1,3 @@
+CREATE TABLE ast_Region_M ( regionId VARCHAR2(64)  NOT NULL, countryId VARCHAR2(64)  NOT NULL, stateId VARCHAR2(64)  NOT NULL, regionName VARCHAR2(256)  NOT NULL, regionCode1 NUMBER(3)  NOT NULL, regionCodeChar2 VARCHAR2(32)  NOT NULL, regionDescription VARCHAR2(256)  DEFAULT NULL, regionFlag VARCHAR2(128)  DEFAULT NULL, regionLatitude NUMBER(11)  DEFAULT NULL, regionLongitude NUMBER(11)  DEFAULT NULL, createdBy VARCHAR2(64)  DEFAULT '-1', createdDate TIMESTAMP  DEFAULT '11-nov-01', updatedBy VARCHAR2(64)  DEFAULT '-1', updatedDate TIMESTAMP  DEFAULT '11-nov-01', versionId NUMBER(11)  DEFAULT '-1', activeStatus NUMBER(1)  DEFAULT '1', txnAccessCode NUMBER  DEFAULT NULL, PRIMARY KEY (regionId));
+
+exit;

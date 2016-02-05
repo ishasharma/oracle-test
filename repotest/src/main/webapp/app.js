@@ -8,7 +8,7 @@ Ext.application({
 
     extend: 'Repotest.Application',
     
-    autoCreateViewport: 'Repotest.view.main.Main'
+/**AppPathDetails**/autoCreateViewport: (Ext.os.deviceType=='Desktop')?'Repotest.view.mainleftmenutree.MainPanel':'Repotest.view.mobileview.main.MainPanel',
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to Repotest.Application. If you need to
