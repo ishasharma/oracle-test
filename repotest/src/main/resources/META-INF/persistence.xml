@@ -36,6 +36,41 @@
         <property name="javax.persistence.jdbc.password" value="repotest"/>
         <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
         </properties>
-	</persistence-unit>
+	<class>repotest.app.shared.location.Timezone</class>
+    <class>repotest.app.shared.location.Language</class>
+    <class>repotest.app.shared.location.Country</class>
+    <class>repotest.app.shared.location.Currency</class>
+    <class>repotest.app.shared.location.State</class>
+    <class>repotest.app.shared.location.Region</class>
+    <class>repotest.app.shared.location.District</class>
+    <class>repotest.app.shared.location.City</class>
+    <class>repotest.app.shared.location.Taluka</class>
+    <class>repotest.app.shared.location.Village</class>
+    <class>repotest.app.shared.location.AddressType</class>
+    <class>repotest.app.shared.location.Address</class>
+    <class>repotest.app.shared.location.AddressExtended</class>
+    <class>repotest.app.shared.contacts.ContactType</class>
+    <class>repotest.app.shared.contacts.CommunicationGroup</class>
+    <class>repotest.app.shared.contacts.CommunicationType</class>
+    <class>repotest.app.shared.contacts.Gender</class>
+    <class>repotest.app.shared.contacts.Title</class>
+    <class>repotest.app.shared.contacts.CoreContacts</class>
+    <class>repotest.app.shared.contacts.CommunicationData</class>
+    <class>repotest.app.shared.authentication.PasswordAlgo</class>
+    <class>repotest.app.shared.authentication.PasswordPolicy</class>
+    <class>repotest.app.shared.authentication.Question</class>
+    <class>repotest.app.shared.authentication.UserAccessLevel</class>
+    <class>repotest.app.shared.authentication.UserAccessDomain</class>
+    <class>repotest.app.shared.authentication.User</class>
+    <class>repotest.app.shared.authentication.Login</class>
+    <class>repotest.app.shared.authentication.LoginSession</class>
+    <class>repotest.app.shared.authentication.PassRecovery</class>
+    <class>repotest.app.shared.authentication.UserData</class>
+    <class>repotest.app.shared.authentication.SessionData</class>
+    <class>repotest.app.shared.authorization.Roles</class>
+    <class>repotest.app.shared.authorization.AppMenus</class>
+    <class>repotest.app.shared.authorization.RoleMenuBridge</class>
+    <class>repotest.app.shared.authorization.UserRoleBridge</class>
+    </persistence-unit>
 
 </persistence>

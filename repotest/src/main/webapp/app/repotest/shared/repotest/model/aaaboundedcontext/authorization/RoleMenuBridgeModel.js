@@ -1,0 +1,42 @@
+Ext.define('Repotest.repotest.shared.repotest.model.aaaboundedcontext.authorization.RoleMenuBridgeModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "roleMenuMapId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "menuid",
+          "reference": "AppMenus",
+          "defaultValue": ""
+     }, {
+          "name": "isRead",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "isWrite",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "isExecute",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "Roles",
+          "reference": "RolesModel"
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

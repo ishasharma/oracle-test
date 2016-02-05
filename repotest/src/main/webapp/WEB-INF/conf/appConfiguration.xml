@@ -72,7 +72,7 @@ For Example
 	 	 	 <docResultFields>id,subject,author,creation_date,last_save_date,attr_content</docResultFields>
 	 	 	 <language>[{"name":"English","value":"en"},{"name":"मराठी","value":"mr"},{"name":"ગુજરાતી","value":"gu"},{"name":"தமிழ்","value":"ta"},{"name":"हिन्दी","value":"hi"},{"name":"FranÃ§ais","value":"fr"},{"name":"తెలుగు","value":"te"}]</language>
 	 	 	 <searchAppURL>http://localhost:8080/repotestsolr</searchAppURL>
-	 	 	 <basePath>/home/applifire/workspace/5VJPOC7D2FDIKLMY2RVZ3Q/repotestSolr-4.9.0</basePath>
+	 	 	 <basePath></basePath>
 	 	 </searchEngineConfig>
 <!--Cloud Drive Properties : Search Engine will use the Public Drive and Private Drive 
 		 Exclusively for the logged in user. 
